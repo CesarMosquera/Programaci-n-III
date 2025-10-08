@@ -1,9 +1,7 @@
 public class Libro {
-    // Atributos
     private int id;
     private String nombre;
     private double precio;
-
 
     public Libro(int id, String nombre, double precio) {
         this.id = id;
@@ -22,7 +20,7 @@ public class Libro {
     public String getNombre() {
         return nombre;
     }
-    
+
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
@@ -35,19 +33,11 @@ public class Libro {
         this.precio = precio;
     }
 
-
     @Override
     public String toString() {
         return "Libro [id=" + id + ", nombre=" + nombre + ", precio=" + precio + "]";
     }
-   
-    public double calcularPrecios(Libro[] libros){
-        double total = 0.0;
-        for (int i = 0; i < libros.length; i++) {
-            total += libros[i].getPrecio();
-        }
-        return total;
-    }
-
-
 }
+
+
+
