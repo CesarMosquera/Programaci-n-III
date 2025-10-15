@@ -10,5 +10,8 @@ public class PruebaArrayList {
     System.out.println(nombres.size());
     nombres.add(1, "Maria");
     System.out.println(nombres);
+    int pos=nombres.indexOf("Jhona");
+    System.out.println(pos!=-1? "Encontrado":"No encontrado");
+    
    } 
 }
