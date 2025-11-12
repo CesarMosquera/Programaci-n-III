@@ -84,7 +84,7 @@ public class ExamenPilaMapa {
 
         Map<Integer, Integer> mapa = new HashMap<Integer, Integer>();
         mapa.put(101, 70);
-        System.out.println("Actualizado: " + actualizarCalificacion(mapa, 101, 83));
+        System.out.println("Actualizado: " + actualizarCalificacion(mapa, 101, 80));
         sc.close();
     }
 }
