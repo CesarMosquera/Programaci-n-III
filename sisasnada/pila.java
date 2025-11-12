@@ -34,3 +34,5 @@ if (nota<0 || nota>100){
  
 return CalificacionporId.put(id , nota);
 
+static int datos []={0, 2, 3, 5};
+
