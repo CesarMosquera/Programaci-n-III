@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class solucion {
+public class SolucionEntregaFinal {
 
     
     static String[] ciudades = { "Cali", "Buga", "Medellin", "Monteria", "Cartagena" };
